@@ -1,0 +1,20 @@
+<!--
+  Generated template for the PokeCard component.
+
+  See https://angular.io/docs/ts/latest/api/core/index/ComponentMetadata-class.html
+  for more info on Angular 2 Components.
+-->
+
+<ion-card>
+  <img src="{{ poke.img }}" />
+  <ion-item>
+    Type
+    <ion-badge color="primary">{{ poke.type }}</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-avatar>
+      <img src="assets/img/oak.jpg" />
+    </ion-avatar>
+    {{ poke.dex }}
+  </ion-item>
+</ion-card>

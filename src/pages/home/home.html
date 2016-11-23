@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Pokemon App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <poke-card *ngFor="let poke of pokemon" [poke]="poke"></poke-card>
+
+  <!--<ion-card>
+    <img src="assets/img/charmander.jpg" />
+    <ion-item>
+      Type
+      <ion-badge color="primary">fire</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-avatar>
+        <img src="assets/img/oak.jpg" />
+      </ion-avatar>
+      Has a flame in its tail 
+    </ion-item>
+  </ion-card>-->
+
+</ion-content>
